@@ -1,0 +1,26 @@
+{
+  "name": "NCSAppV0.0.1",
+  "description": "nurse call system alpha version",
+  "main": "www",
+  "authors": [
+    "Khaled Hossain <md.khaled.eee@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ncs"
+  ],
+  "homepage": "localhost:3000",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.6",
+    "timer.jquery": "^0.6.0"
+  }
+}

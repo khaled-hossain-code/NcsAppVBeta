@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <% include templates/header.ejs %>
+    <div id="container">
+      <h2 class="text-center">Nurse Call System</h2>
+
+      <table class="table text-center">
+        <thead id="CallTable">
+        <tr class="active">
+          <th class="col-lg-1 text-center">Bed Number</th>
+          <th class="col-lg-1 text-center">Room Number</th>
+          <th class="col-lg-1 text-center">Room Type</th>
+          <th class="col-lg-1 text-center">Floor</th>
+          <th class="col-lg-1 text-center">Call Type</th>
+          <th class="col-lg-1 text-center">Call Date</th>
+          <th class="col-lg-1 text-center">Call Time</th>
+          <th class="col-lg-1 text-center">Timer</th>
+        </tr>
+        </thead>
+        <tbody id="callTableBody">
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/timer.jquery/dist/timer.jquery.js"></script>
+    <script src="/javascript/client-app.js"></script>
+
+
+
+  </body>
+</html>
